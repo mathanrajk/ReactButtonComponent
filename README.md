@@ -1,4 +1,4 @@
-# Button Component
+# Button Components
 
 A lightweight, type-safe, and highly customizable React Button component featuring multiple variants, native HTML attribute support, and seamless style customization.
 
