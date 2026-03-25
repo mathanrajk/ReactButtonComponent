@@ -1,0 +1,27 @@
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-standard {
+  background-color: blue;
+  color: #fff;
+}
+
+.btn-outlined {
+  background-color: transparent;
+  border-color: currentColor;
+}
+
+.btn-flat {
+  background-color: transparent;
+}
