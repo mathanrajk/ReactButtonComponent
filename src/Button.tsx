@@ -20,7 +20,12 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
    */
   size?: number;
   /**
-   * The visual style variant of the button.
+   * Determines the primary visual style of the button.
+   * 
+   * - `Standard`: A typical button with a solid background.
+   * - `Outlined`: A button with a transparent background and a prominent border.
+   * - `Flat`: A minimalist button without a background or border.
+   *
    * @default ButtonVariant.Standard
    */
   variant?: ButtonVariant;
