@@ -14,7 +14,7 @@ export type ButtonVariant = typeof ButtonVariant[keyof typeof ButtonVariant];
  * Props for the custom Button component.
  * Extends all standard HTML button attributes (e.g., disabled, type, aria-*).
  */
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   /**
    * Adjusts the font-size of the button text in pixels.
    */
